@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-oomf
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:gTo1P-devfile-sample-code-with-quarkus-oomf
+      - image: quay.io/redhat-appstudio/user-workload@sha256:72cd7fa203496fd7a3ebc1da457a7da82ad5fdffcb3de56c6fe1fb9c5e5575f6
         name: my-java-quarkus
         ports:
         - containerPort: 8081
